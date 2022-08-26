@@ -1,11 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Wraper } from "./App.styled";
+import { InputContainer } from "./components/input-container/input";
+import { OutputContainer } from "./components/output-container/output";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Random Test Case Generator</h1>
-    </div>
+    <Wraper>
+      <InputContainer />
+      <OutputContainer />
+    </Wraper>
   );
 }
 
